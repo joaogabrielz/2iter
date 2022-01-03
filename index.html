@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./assets/css/reset.css">
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <title>2iter</title>
+</head>
+<body>
+<div class="container">
+    <!-- CABEÇALHO -->
+    <header class="cabecalho">
+        <!-- IMAGEM DA LOGO -->
+        <figure class="cabecalho_logo">
+            <img src="./assets/img/bird 1.svg" alt="logo-image"><p> 2iter</p>
+            <figcaption hidden>Logo 2iter</figcaption>
+        </figure>
+
+        <!-- MENU DE NAVEGAÇÃO -->
+        <nav class="cabecalho_menuNav">
+            <!-- Lista de links -->
+            <ul class="cabecalho_menuLista">
+
+                <li class="cabecalho_menuItem">
+                    <img src="./assets/img/Home.png" alt="">
+                    <a href="">Página Inicial</a>
+                </li>
+
+                <li class="cabecalho_menuItem">
+                    <img src="./assets/img/Hashtag.png" alt="">
+                    <a href="">Explorar</a>
+                </li>
+
+                <li class="cabecalho_menuItem">
+                    <img src="./assets/img/Notification.png" alt="">
+                    <a href="">Notificações</a>
+                </li>
+
+                <li class="cabecalho_menuItem">
+                    <img src="./assets/img/msg.png" alt="">
+                    <a href="">Mensagens</a>
+                </li>
+
+                <li class="cabecalho_menuItem">
+                    <img src="./assets/img/save.png" alt="">
+                    <a href="">Itens salvos</a>
+                </li>
+
+                <li class="cabecalho_menuItem">
+                    <img src="./assets/img/list.png" alt="">
+                    <a href="">Listas</a>
+                </li>
+
+                <li class="cabecalho_menuItem">
+                    <img src="./assets/img/fotujoao.jpg" alt="">
+                    <a href="">Perfil</a>
+                </li> 
+
+                <li class="cabecalho_menuItem">
+                    <img src="./assets/img/more.png" alt="">
+                    <a href="">Mais</a>
+                </li>
+            </ul>
+        </nav>
+
+    </header>
+
+    <!-- CONTEUDO PRINCIPAL -->
+    <main class="conteudoPrincipal">
+
+        <!-- TITULO -->
+        <h3 class="conteudoPrincipal_titulo">Home</h3>
+
+        <!-- formulario -->
+        <form action="#" class="conteudoPrincipal_form">
+            <textarea name="postText" placeholder="O que esta pensando?" id="textarea"></textarea>
+            <button type="submit" id='btn'>tweet</button>
+        </form>
+
+        <!-- Feed DE Notícias -->
+        <section class="conteudoPrincipal_feed">
+
+            <!-- NOTICIA -->
+            <ul class="conteudoPrincipal_listaTweet">
+
+                <li class="conteudoPrincipal_tweet">
+                     <!-- Imagem usuario Principal  -->
+                    <img class="tweet_fotoPerfil" src="./assets/img/fotujoao.jpg" alt="Joao_Gabriel">
+
+                    <!-- CAIXA DE INFOS DO USUARIO  -->
+                    <div class="tweet_conteudo">
+                        <h2>João Gabriel</h2>
+                         <!-- adcionar segunos ex '22s'  -->
+                        <span id='spam1'>@joaogabrielz </span> 
+                        <p>
+                            Eu adoro aprender e Evoluir, busco me desenvolver a cada dia e você?<br>
+                            <span>#OqueTeMove?</span>
+                        </p>
+                    </div>
+                </li>
+
+            </ul>
+        </section>
+    </main>
+
+</div>
+<script src="./assets/js/script.js"></script>
+</body>
+</html>
